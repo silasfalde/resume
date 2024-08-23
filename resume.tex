@@ -1,63 +1,42 @@
-%-------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%-------------------------------------------------------------------------------
+\documentclass{resume}
 
-\documentclass[12pt]{resume}
-\usepackage{ebgaramond} % Use the EB Garamond font
-
-%------------------------------------------------
-
-\name{Silas M. Falde}
-
-% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
-
-\address{3859 Hoyer Rd \\ Jackson, MI 49201}
+\address{1300 S University Ave \\ 503-A \\ Ann Arbor MI, 48104}
 \address{(517) 539-1532 \\ sfalde@umich.edu}
-
-%-------------------------------------------------------------------------------
 
 \begin{document}
 
-%-------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%-------------------------------------------------------------------------------
-
+% Education
 \begin{rSection}{Education}	
-	\textbf{University of Michigan, Ann Arbor} \hfill \textit{August 2023 - Present} \\ 
-	Sophomore Pursuing B.S.E. in Data Science \\
-	\begin{tabular}{@{} >{\bfseries}l @{\hspace{2em}} l @{}}
-		Current GPA & 3.242 \\
-		Course Highlights & Programming, Data Structures, Linear Algebra, Discrete Mathematics \\
-	\end{tabular}
+	\begin{rSubsection}{University of Michigan, Ann Arbor}{August 2023 - Present}{Sophomore Pursuing B.S.E. in Data Science}{GPA - 3.242}
+		\item Programming (EECS 183, 280): Developed fundamental programming skills and concepts as applied to C++. Gained experience working as both a programming team member and leader with many projects including text comprehension, image resizing, and a terminal-based game.
+		\item Data Structures (EECS 280, 281): Studied data structure concepts including linked lists, maps, inheritance, functors, iterators, polymorphism, and recursion, as applied to C++. Worked both individually and on a team for many projects including matrix implementations, a euchre game, and a machine learning social media post classifier. 
+		\item Linear Algebra (MATH 214): Explored linear algebra concepts including linear equations, linear transformations, subspaces, and orthogonality. Applied concepts to linear programming, error-correcting codes, and 3D computer graphical computation.
+		\item Discrete Mathematics (EECS 203): Studied mathematical concepts as they relate to computation including algorithms, counting, probability, induction, recursion, and logic.  % ! Finish
+	\end{rSubsection}
 \end{rSection}
 
-%-------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%-------------------------------------------------------------------------------
+% Activities
+\begin{rSection}{Activities}
+	\begin{rSubsection}{Michigan Data Science Team (MDST)}{August 2024 - Present}{Project Team Member}{}
+		\item Applied programming skills and concepts to Python for data collection, cleaning, and analysis
+	\end{rSubsection}
+\end{rSection}
 
-%\begin{rSection}{Experience}
-%
-%	\begin{rSubsection}{MATH 215}{Fall 2023}{Final Grade: A-}{}
-%		\item Performed well as a freshman taking an upper level math class
-%	\end{rSubsection}
-%
-%\end{rSection}
+% Employment
+\begin{rSection}{Employment}
 
-%-------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%-------------------------------------------------------------------------------
+	% Referee
+	% Groundskeeping
 
-\begin{rSection}{Skills}
+\end{rSection}
 
+% Strengths
+\begin{rSection}{Strengths}
 	\begin{tabular}{@{} >{\bfseries}l @{\hspace{2em}} l @{}}
 		Programming & C++, Python, LaTeX, SQLite, R Studio \\ 
-		Python & pandas, numpy, matplotlib \\
+		Python & Pandas, NumPy, Matplotlib, Sklearn \\
 		Software & Microsoft Office, Google Suite \\
-		% Languages & English, some Spanish \\
 	\end{tabular}
-
 \end{rSection}
-
-%-------------------------------------------------------------------------------
 
 \end{document}
