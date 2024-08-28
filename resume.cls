@@ -1,5 +1,5 @@
 \ProvidesClass{resume}[2022/12/17 v3.0 Resume class]
-\LoadClass[12pt]{article} % Load the base class
+\LoadClass[12pt]{article}
 
 \RequirePackage{
 	parskip,
@@ -8,7 +8,7 @@
 	graphicx,
 	geometry, 
 	amsmath, 
-	ebgaramond
+	% ebgaramond
 }
 
 % Options 
@@ -16,10 +16,10 @@
 \ProcessOptions\relax % Process given options
 
 \geometry{
-	top=0.6in, % Top margin
+	top=0.4in, % Top margin
 	bottom=0.6in, % Bottom margin
-	left=0.75in, % Left margin
-	right=0.75in, % Right margin
+	left=0.5in, % Left margin
+	right=0.5in, % Right margin
 	% showframe, % Uncomment to show how the type block is set on the page
 }
 
@@ -93,8 +93,10 @@
 	}
 	\smallskip
 	\begin{list}{$\boldsymbol{\cdot}$}{\leftmargin=1em}
-		% \setlength{\itemsep}{-0.5em} \vspace{-0.5em} % Reduce vertical spacing between items in the list for a tighter look
+		\setlength{\itemsep}{-0.3em} \vspace{-0.5em} % Reduce vertical spacing between items in the list for a tighter look
 }{
 	\end{list}
 	\vspace{0.5em}
 }
+
+\pagenumbering{gobble} % Remove page number
