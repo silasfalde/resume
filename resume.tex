@@ -1,51 +1,23 @@
-\documentclass{resume}
-
-\address{1300 S University Ave \\ 503-A \\ Ann Arbor MI, 48104}
-\address{(517) 539-1532 \\ sfalde@umich.edu}
+\documentclass[compact]{resume}
 
 \begin{document}
 
-% Education
-\begin{rSection}{Education}	
-	\begin{rSubsection}{University of Michigan, Ann Arbor}{August 2023 - Present}{Sophomore Pursuing B.E. in Data Science \\ Expected Graduation: May 2027}{GPA - 3.242}
-		\item Programming: Developed fundamental programming skills and concepts as applied to C++ required for data collection and analysis. % Gained experience working as both a programming team member and leader with many projects including text comprehension, image resizing, and a terminal-based game.
-		\item Data Structures: Studied data structure concepts including linked lists, maps, inheritance, functors, iterators, polymorphism, and recursion for advanced and personalized data modeling. % Worked both individually and on a team for many projects including matrix implementations, a euchre game, and a machine learning social media post classifier. 
-		% \item Linear Algebra (MATH 214): Explored linear algebra concepts including linear equations, linear transformations, subspaces, and orthogonality. Applied concepts to linear programming, error-correcting codes, and 3D computer graphical computation.
-		\item Discrete Mathematics: Studied computational math concepts including algorithms, counting, probability, recursion, and logic, laying the foundations for both probabilistic and statistical skills.
-	\end{rSubsection}
+\section{Education}
+\input{education/university-of-michigan.tex}
+\input{education/western-high-school.tex}
 
-	\begin{rSubsection}{Western High School, Parma MI}{August 2019 - May 2023}{}{GPA - 3.963}
-		\item Led the varsity soccer team as a captain to create a competitive and inclusive sporting environment.
-		\item Participated in the select choir for 3 years to develop creative skills and provide beautiful performances for the community.
-	\end{rSubsection}
-\end{rSection}
+\section{Work Experience}
+\input{experience/ally.tex}
+\input{experience/michigan-soccer-referee-association.tex}
+\input{experience/center-lake-fitness.tex}
 
-% Activities
-\begin{rSection}{Activities}
-	\begin{rSubsection}{Michigan Data Science Team (MDST)}{August 2024 - Present}{Project Team Member}{}
-		\item Applied programming skills and concepts to Python for data collection, cleaning, and analysis.
-	\end{rSubsection}
-\end{rSection}
+\section{Research}
+\input{experience/university-of-michigan.tex}
 
-% Employment
-\begin{rSection}{Employment}
-	\begin{rSubsection}{University of Michigan}{September 2024 - Present}{Research Assistant}{Michigan Center, MI}
-		\item Aided in the development of a natural language processing model to extract trends from youth suicide narratives and provide critical insight into suicide prevention. 
-	\end{rSubsection}
+\section{Projects}
+\input{projects/predicting-survival-in-the-icu.tex}
 
-	\begin{rSubsection}{Michigan Soccer Referee Association}{March 2022 - Present}{Certified Grassroots Referee}{Jackson MI, Ann Arbor MI}
-		\item Worked on a referee team to create a safe, fair, and fun environment for players, coaches, and spectators. 
-		\item Applied my knowledge of the rules of soccer to facilitate the sport. 
-	\end{rSubsection}	
-\end{rSection}
-
-% Strengths
-\begin{rSection}{Strengths}
-	\begin{tabular}{@{} >{\bfseries}l @{\hspace{2em}} l @{}}
-		Programming & C++, Python, LaTeX, SQLite, R Studio \\ 
-		Python & Pandas, NumPy, Matplotlib, Sklearn \\
-		Software & Microsoft Office, Google Suite \\
-	\end{tabular}
-\end{rSection}
+\section{Skills}
+\input{skills.tex}
 
 \end{document}
