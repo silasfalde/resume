@@ -1,6 +1,6 @@
 INFO:  latexindent version 3.24.5, 2025-03-13, a script to indent .tex files
        latexindent lives here: /usr/local/texlive/2025/texmf-dist/scripts/latexindent/
-       Fri Jun 27 13:42:45 2025
+       Fri Jun 27 13:55:26 2025
        Reading input from STDIN
 INFO:  Processing switches:
        -y|--yaml: YAML settings specified via command line
@@ -13,11 +13,11 @@ INFO:  YAML reading settings
        latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
        see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
 INFO:  YAML settings read: -y switch
-       YAML setting: "defaultIndent:'	'"
+       YAML setting: "defaultIndent:'    '"
        quote found in -y switch
        key: 
-       value: defaultIndent:'	'
-       double-quoted string found in -y switch: "defaultIndent:'	'", substitute to defaultIndent:'	'
+       value: defaultIndent:'    '
+       double-quoted string found in -y switch: "defaultIndent:'    '", substitute to defaultIndent:'    '
 INFO:  Phase 1: searching for objects
 INFO:  Phase 2: finding surrounding indentation
 INFO:  Phase 3: indenting objects
