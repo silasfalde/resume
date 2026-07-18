@@ -76,7 +76,7 @@
 \smallskip
 }
 
-\address{(517) 539-1532\addressSep sfalde05@gmail.com\addressSep \href{https://silasfalde.net}{www.silasfalde.net}}
+\address{(517) 539-1532\addressSep sfalde05@gmail.com\addressSep \href{https://silasfalde.net}{silasfalde.net}\addressSep \href{https://github.com/silasfalde}{github.com/silasfalde}}
 
 
 % Header
