@@ -50,7 +50,7 @@
 }
 
 % Addresses
-\newcommand{\addressSep}{$\ \diamond\ $}
+\newcommand{\addressSep}{ | }
 \let \@addressone \relax
 \let \@addresstwo \relax
 \let \@addressthree \relax
@@ -76,7 +76,7 @@
 \smallskip
 }
 
-\address{(517) 539-1532 \\ sfalde05@gmail.com \\ \href{https://silasfalde.net}{www.silasfalde.net}}
+\address{(517) 539-1532\addressSep sfalde05@gmail.com\addressSep \href{https://silasfalde.net}{www.silasfalde.net}}
 
 
 % Header
