@@ -33,7 +33,7 @@
 \if@compact
 	\setlength{\parskip}{0pt plus 1fil}
 	\linespread{0.7}\selectfont
-	\geometry{top=0.3in, bottom=0.4in, left=0.5in, right=0.5in}
+	\geometry{top=0.3in, bottom=0.3in, left=0.4in, right=0.4in}
 	\pagenumbering{gobble}
 \fi
 
@@ -45,7 +45,7 @@
 \newcommand{\printname}{
 	\begingroup
 	\hfil{\MakeUppercase{\huge\bfseries\name}}\hfil
-	\medskip\break
+	\smallskip\break
 	\endgroup
 }
 
@@ -102,7 +102,7 @@
 \newcommand{\experience}[4]{
 	\if@compact\smallskip
 	\else\medskip\fi
-	\textbf{#1}\hfill\textbf{#2}\\
+	\textbf{#1}\hfill\textbf{#2}\\[-0.2em]
 	\textit{#4\hfill#3}
 	\smallskip
 }
@@ -111,7 +111,10 @@
 % Environments
 \newenvironment{bullets}{
 	\begin{list}{$\boldsymbol{\cdot}$}{\leftmargin=1em}
-		\setlength{\itemsep}{-0.3em}
+		\setlength{\baselineskip}{9pt}
+		\setlength{\lineskiplimit}{-1000pt}
+		\setlength{\lineskip}{4pt}
+		\setlength{\itemsep}{-0.2em}
 		\vspace{-0.5em}
 		}{
 	\end{list}
